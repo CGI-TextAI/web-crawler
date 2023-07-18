@@ -30,7 +30,7 @@ By default, the script will start crawling from 'https://www.imdb.com'. You can 
 Crawler(urls=['https://www.example.com']).run()
 ```
 
-The results will be saved in a file named <b>'webpages.csv'</b>. Each line of the file contains a visited URL and the extracted text from that URL.
+The results will be saved into multiple text files named after each webpage scrapped. Each line of the file contains the extracted text from that URL.
 
 ## Logging
 
